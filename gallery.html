@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            background-color: rgb(218, 255, 255);
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-links {
+            flex: 1;
+            text-align: center;
+        }
+        .nav-links ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .nav-links ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .nav-links ul li::after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+        .nav-links ul li:hover::after {
+             width: 100%;
+             background: rgb(199, 120, 207);
+        }
+        .kotakkata h1 {
+            margin-top: 4%;
+            margin-left: 10%;
+        }
+        .buku {
+            width: 80%;
+            margin: auto;
+            padding-top: 50px;
+        }
+        .container .category{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 8px;
+            margin-bottom: 50px;
+        }
+        #img-gal {
+            height: 360px;
+            cursor: pointer;
+            transition: .4s;
+            border-radius: 20px;
+        }
+        #img-gal:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="aboutUs.html">ABOUT US</a></li>
+                        <li><a href="contactUs.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>  
+        </section>
+
+        <div class="kotakkata">
+            <h1>Books Gallery</h1>
+        </div>
+        <div class="buku">
+        <div class="container">
+            <div class="category">
+                <img id="img-gal" src="image/book1.jpg"></a>
+                <img id="img-gal" src="image/book2.jpg"></a>
+                <img id="img-gal" src="image/book3.jpg"></a>
+                <img id="img-gal" src="image/book4.jpg"></a>
+                <img id="img-gal" src="image/book5.jpg"></a>
+                <img id="img-gal" src="image/book6.jpg"></a>
+                <img id="img-gal" src="image/book7.jpg"></a>
+                <img id="img-gal" src="image/book8.jpg"></a>
+                <img id="img-gal" src="image/book9.jpg"></a>
+                <img id="img-gal" src="image/book10.jpg"></a>
+                <img id="img-gal" src="image/book1.jpg"></a>
+                <img id="img-gal" src="image/book2.jpg"></a>
+                <img id="img-gal" src="image/book3.jpg"></a>
+                <img id="img-gal" src="image/book4.jpg"></a>
+                <img id="img-gal" src="image/book5.jpg"></a>
+                <img id="img-gal" src="image/book6.jpg"></a>
+                <img id="img-gal" src="image/book7.jpg"></a>
+                <img id="img-gal" src="image/book8.jpg"></a>
+                <img id="img-gal" src="image/book9.jpg"></a>
+                <img id="img-gal" src="image/book10.jpg"></a>
+                <img id="img-gal" src="image/book1.jpg"></a>
+                <img id="img-gal" src="image/book2.jpg"></a>
+                <img id="img-gal" src="image/book3.jpg"></a>
+                <img id="img-gal" src="image/book4.jpg"></a>
+                <img id="img-gal" src="image/book5.jpg"></a>
+                <img id="img-gal" src="image/book6.jpg"></a>
+                <img id="img-gal" src="image/book7.jpg"></a>
+                <img id="img-gal" src="image/book8.jpg"></a>
+                <img id="img-gal" src="image/book9.jpg"></a>
+                <img id="img-gal" src="image/book10.jpg"></a>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
